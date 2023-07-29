@@ -23,5 +23,6 @@ switch ($cal) {
         break;
 }
 
-echo "The output is " . $value;
+// echo "The output is " . $value;
+header("location:form.php?result=$value");
 ?>
